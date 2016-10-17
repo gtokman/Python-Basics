@@ -1,0 +1,71 @@
+# Bools
+
+# Bool() func
+
+sunday = bool(1 == 2)
+
+print("=" * 20)
+
+# Anything empty is false and not empty is true
+
+my_list = bool([])
+
+# None is false
+
+truthy = bool(None)
+
+# Operators
+
+c = []
+d = []
+
+print(c == d)
+
+# Is compares memory address
+
+print(c is d)
+
+e = None
+print(e is None)
+
+# If
+
+if 5 > 2:
+    print("Yeah bro!")
+
+age = 22 * 365
+
+if age > 20000:
+    print("Your are old!")
+elif age > 10000:
+    print("Keep going bro!")
+else:
+    print("Your young!")
+
+if not age == 7000:
+    print("Hey, your not that young")
+
+# In - is one value in another value
+
+cheese = "cheese" in "cheeseshop"
+
+print(cheese)
+
+days = ["monday", "tuesday", "wednesday"]
+
+today = "monday"
+
+if today in days:
+    print("come on in")
+else:
+    print("close :(")
+
+if today not in days:
+    print("Closed")
+else:
+    print("Open!")
+
+if not today in days:
+    print("Come in")
+else:
+    print("Get out")
